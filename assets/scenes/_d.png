@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <script type="module" src="/@vite/client"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#17245f" />
+    <meta name="description" content="linlin与xinxin的星露谷风格婚礼邀请函｜2027.02.21" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="linlin & xinxin｜Stardew Wedding" />
+    <meta property="og:description" content="冬日吉期，我们在星露谷等你赴约。2027.02.21 见。" />
+    <meta property="og:image" content="/assets/share-cover.svg" />
+    <title>linlin & xinxin｜Stardew Wedding</title>
+    <link rel="icon" href="/assets/wedding-ring.png" />
+    <link rel="preload" href="/assets/fonts/fusion-pixel-12px-proportional-zh-hans.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <svg class="pixel-symbols" aria-hidden="true">
+      <symbol id="icon-leaf" viewBox="0 0 24 24"><path d="M3 20h4v-4h3v-3h3v-3h3V7h3V3H9v3H6v3H3v11Zm7-10h3V7h3v3h-3v3h-3v-3Z" /></symbol>
+      <symbol id="icon-calendar" viewBox="0 0 24 24"><path d="M4 3h4v3h8V3h4v3h2v16H2V6h2V3Zm2 8v7h12v-7H6Zm2 2h3v3H8v-3Z" /></symbol>
+      <symbol id="icon-pin" viewBox="0 0 24 24"><path d="M8 2h8v2h3v3h2v7h-2v3h-2v2h-2v3H9v-3H7v-2H5v-3H3V7h2V4h3V2Zm1 6v5h6V8H9Z" /></symbol>
+      <symbol id="icon-ring" viewBox="0 0 24 24"><path d="M8 2h8v2h2v4h-2v2h-1v2h3v2h2v6h-2v2H6v-2H4v-6h2v-2h3v-2H8V8H6V4h2V2Zm2 3v3h4V5h-4Zm-2 10v4h8v-4H8Z" /></symbol>
+      <symbol id="icon-shirt" viewBox="0 0 24 24"><path d="M7 3h3v3h4V3h3l5 4v6h-4v9H6v-9H2V7l5-4Zm3 7v3h4v-3h-4Z" /></symbol>
+      <symbol id="icon-star" viewBox="0 0 24 24"><path d="M10 2h4v5h5v4h3v4h-7v7H9v-7H2v-4h3V7h5V2Z" /></symbol>
+      <symbol id="icon-clock" viewBox="0 0 24 24"><path d="M8 2h8v2h3v3h2v10h-2v3h-3v2H8v-2H5v-3H3V7h2V4h3V2Zm2 4v7h6V9h-3V6h-3Z" /></symbol>
+      <symbol id="icon-music" viewBox="0 0 24 24"><path d="M10 3h11v14h-3V8h-5v12h-2v2H5v-2H3v-4h2v-2h5V3Zm3 2v1h5V5h-5ZM6 17v2h4v-2H6Z" /></symbol>
+      <symbol id="icon-map" viewBox="0 0 24 24"><path d="M3 4h6l3 2 3-2h6v16h-6l-3-2-3 2H3V4Zm4 3H6v10h1V7Zm6 2h-2v6h2V9Zm5-2h-1v10h1V7Z" /></symbol>
+    </svg>
+
+    <main class="h5-shell">
+      <section class="hero hero-title" id="top">
+        <div class="hero-bg" role="img" aria-label="STARDEW VALLEY 婚礼邀请函标题屏"></div>
+        <div class="sky-stars" aria-hidden="true"></div>
+        <a class="scroll-hint pixel-control" href="#notice" aria-label="进入邀请函">
+          <span>↓&nbsp;&nbsp;进入邀请函</span>
+        </a>
+      </section>
+
+      <section class="notice story-section" id="notice">
+        <header class="section-heading reveal">
+          <svg><use href="#icon-leaf" /></svg>
+          <p>THE WEDDING INVITATION</p>
+          <h2>婚礼邀请函</h2>
+        </header>
+
+        <article class="invitation-board reveal pop-in">
+          <div class="vine vine-left" aria-hidden="true"></div><div class="vine vine-right" aria-hidden="true"></div>
+          <p class="board-kicker">SAVE OUR DATE</p>
+          <h3 data-content="coupleAmp">新郎姓名 & 新娘姓名</h3>
+          <p class="board-message">春去冬来，我们决定在星露谷举办一场婚礼。诚挚邀请你，来见证这一份温暖般的幸福。</p>
+          <dl class="event-list">
+            <div><dt><svg><use href="#icon-calendar" /></svg>日期</dt><dd data-content="dateCn">2030年10月1日 · 星期二</dd></div>
+            <div><dt><svg><use href="#icon-pin" /></svg>地点</dt><dd data-content="venue">示例市幸福区星露谷宴会厅</dd></div>
+            <div><dt><svg><use href="#icon-ring" /></svg>新人</dt><dd data-content="coupleAmp">新郎姓名 & 新娘姓名</dd></div>
+            <div><dt><svg><use href="#icon-shirt" /></svg>着装</dt><dd>盛装赴约，带上快乐与祝福</dd></div>
+          </dl>
+        </article>
+
+        <div class="calendar-card reveal">
+          <div class="season-line">冬日吉期 · 初雪暖灯</div>
+          <div class="calendar-main"><span data-content="calendarMonth">OCT</span><strong data-content="calendarDay">01</strong><span data-content="calendarYear">2030</span></div>
+          <div class="countdown"><span>距离婚礼还有</span><strong id="days-count">--</strong><span>天</span></div>
+        </div>
+
+        <article class="season-calendar reveal">
+          <header>
+            <span class="winter-icon">❄<i>★</i></span>
+            <div><small data-content="calendarYear">2027</small><b><span data-content="seasonName">冬</span>季</b></div>
+            <img src="/assets/wedding-ring.png" alt="婚戒" />
+          </header>
+          <div class="week-grid">
+            <span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span>
+          </div>
+          <div class="calendar-grid" id="calendar-grid" aria-label="婚礼月份日历"></div>
+          <footer><span class="event-dot"></span><b>喜结节日：</b><span data-content="dateCn">2030年10月1日 · 星期二</span></footer>
+        </article>
+
+        <div class="schedule-block reveal" id="quest">
+          <div class="mini-heading"><svg><use href="#icon-clock" /></svg><span>今日行程</span></div>
+          <div class="quest-board">
+            <span class="board-nail n-tl" aria-hidden="true"></span>
+            <span class="board-nail n-tr" aria-hidden="true"></span>
+            <span class="board-nail n-bl" aria-hidden="true"></span>
+            <span class="board-nail n-br" aria-hidden="true"></span>
+            <div class="board-paper">
+              <ul class="board-list" data-content="schedule"></ul>
+            </div>
+            <div class="pinned-map" aria-hidden="true">
+              <svg viewBox="0 0 50 60" xmlns="http://www.w3.org/2000/svg">
+                <rect width="50" height="60" fill="#f7e6a8"/>
+                <rect x="2.5" y="2.5" width="45" height="55" fill="none" stroke="#b88a4a" stroke-width="1.4" stroke-dasharray="3 2"/>
+                <path d="M6 28 Q12 22 18 28 Q24 32 30 26 Q36 22 44 28" stroke="#4a8a5e" fill="none" stroke-width="1.4"/>
+                <path d="M6 40 Q14 36 22 40 Q30 44 44 40" stroke="#4a8a5e" fill="none" stroke-width="1.4"/>
+                <circle cx="25" cy="34" r="3.5" fill="#c84e64"/>
+                <circle cx="25" cy="34" r="1" fill="#fff5c8"/>
+              </svg>
+            </div>
+            <div class="pinned-note" aria-hidden="true">
+              <p>02.21<br>★ ★ ★</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="saloon-section story-section" id="saloon">
+        <header class="section-heading light reveal">
+          <svg><use href="#icon-leaf" /></svg>
+          <p>PARTY MENU</p>
+          <h2>星露谷餐吧菜单</h2>
+        </header>
+        <div class="saloon-sign reveal" aria-hidden="true">
+          <span>THE</span>
+          <b>星露谷</b>
+          <strong>SALOON</strong>
+        </div>
+        <div class="menu-board reveal">
+          <article><img src="/assets/starfruit.png" alt="杨桃" /><div><b>初雪恋人蛋糕</b><small>甜度 +80 · 温暖 +3</small></div><strong>0g</strong></article>
+          <article><img src="/assets/blueberry.png" alt="蓝莓" /><div><b>蓝莓热气泡饮</b><small>温度 +1 · 幸福 +50</small></div><strong>0g</strong></article>
+          <article><img src="/assets/ancient-fruit.png" alt="上古水果" /><div><b>冬夜森林特调</b><small>配方保密 · 友情 +100</small></div><strong>0g</strong></article>
+        </div>
+        <p class="gus-quote reveal">"暖意融融的冬夜，一杯热饮、一块蛋糕，就是最好的祝福。"<b>— 格斯</b></p>
+      </section>
+
+      <section class="quest story-section" id="invitation">
+        <header class="section-heading light reveal"><svg><use href="#icon-star" /></svg><p>A NEW QUEST</p><h2>参加我们的婚礼</h2></header>
+        <article class="quest-card reveal pop-in">
+          <div class="quest-pin">!</div>
+          <p>婚礼当日，鹈鹕镇收到了一封闪闪发光的邀请函。村民们已经换好礼服，我们也准备好邀请你了。</p>
+          <ul>
+            <li><svg><use href="#icon-star" /></svg><b>抵达</b><span data-content="venue">示例市幸福区星露谷宴会厅</span></li>
+            <li><svg><use href="#icon-star" /></svg><b>见证</b><span>拥抱、誓言与交换戒指</span></li>
+            <li><svg><use href="#icon-star" /></svg><b>解锁</b><span>一场热闹又浪漫的冬日喜宴</span></li>
+          </ul>
+          <div class="quest-reward">奖励：永久友谊 +1000　幸福值 MAX</div>
+        </article>
+        <div class="junimo-row reveal" aria-label="六只祝尼魔前来祝福">
+          <img src="/assets/junimo.gif" alt="" /><img src="/assets/junimo.gif" alt="" /><img src="/assets/junimo.gif" alt="" />
+          <img src="/assets/junimo.gif" alt="" /><img src="/assets/junimo.gif" alt="" /><img src="/assets/junimo.gif" alt="" />
+        </div>
+      </section>
+
+      <section class="ceremony story-section" id="ceremony">
+        <header class="section-heading reveal"><svg><use href="#icon-ring" /></svg><p>THE CEREMONY</p><h2>鹈鹕镇婚礼现场</h2></header>
+        <div class="ceremony-scene reveal pop-in">
+          <img src="/assets/marriage-scene.png" alt="所有村民到场见证婚礼仪式" />
+          <div class="pixel-petals" aria-hidden="true"></div>
+        </div>
+        <article class="dialogue-box reveal">
+          <img src="/assets/characters/lewis.png" alt="刘易斯镇长" />
+          <div><b>镇长致辞</b><p>愿你们往后的每一天，都像收获季一样丰盛而明亮。</p></div>
+        </article>
+      </section>
+
+      <section class="map-section story-section" id="map">
+        <header class="section-heading reveal"><svg><use href="#icon-map" /></svg><p>HOW TO ARRIVE</p><h2>鹈鹕镇地图</h2></header>
+        <div class="map-frame reveal pop-in">
+          <img src="/assets/pelican-town.webp" alt="星露谷鹈鹕镇地图" />
+          <span class="map-pin"><svg><use href="#icon-pin" /></svg><small data-content="venueShort">星露谷宴会厅</small></span>
+        </div>
+        <article class="location-card reveal">
+          <p class="location-overline">现实世界目的地</p>
+          <h3 data-content="venue">示例市幸福区星露谷宴会厅</h3>
+          <div class="transport-grid">
+            <div><img src="/assets/bus.png" alt="巴士" /><b>公共交通</b><span>到站后打车前往</span></div>
+            <div><img src="/assets/horse.png" alt="马匹代指自驾" /><b>自驾前往</b><span>导航至酒店停车场</span></div>
+          </div>
+          <a class="pixel-button" data-content="navigationLink" rel="noreferrer">打开地图导航</a>
+        </article>
+      </section>
+
+      <section class="rsvp story-section" id="rsvp" data-rsvp-ui hidden>
+        <header class="section-heading light reveal"><svg><use href="#icon-leaf" /></svg><p>JOIN THE CELEBRATION</p><h2>确认赴约</h2></header>
+        <form class="rsvp-card reveal pop-in" id="rsvp-form" novalidate>
+          <div class="rsvp-card-title">
+            <span>PELICAN TOWN</span>
+            <strong>村民赴约登记簿</strong>
+            <p>请在这里留下你的信息，方便我们为你准备席位。</p>
+          </div>
+          <label class="form-field">
+            <span>宾客姓名 <b>必填</b></span>
+            <input type="text" name="guestName" autocomplete="name" maxlength="30" placeholder="请输入你的姓名" required />
+          </label>
+          <label class="form-field">
+            <span>出席人数 <b>含本人</b></span>
+            <select name="partySize">
+              <option value="1">1 人</option><option value="2">2 人</option><option value="3">3 人</option>
+              <option value="4">4 人</option><option value="5">5 人</option><option value="6">6 人</option>
+            </select>
+          </label>
+          <fieldset class="attendance-field" id="accommodation-field">
+            <legend>是否需要住宿 <b>必填</b></legend>
+            <div class="attendance-options">
+              <label><input type="radio" name="needsAccommodation" value="yes" required /><span>需要住宿</span></label>
+              <label><input type="radio" name="needsAccommodation" value="no" required /><span>无需住宿</span></label>
+            </div>
+          </fieldset>
+          <div id="accommodation-dates" hidden>
+            <label class="form-field">
+              <span>入住日期时间 <b>必填</b></span>
+              <input type="datetime-local" name="checkInAt" />
+            </label>
+            <label class="form-field">
+              <span>退房日期时间 <b>必填</b></span>
+              <input type="datetime-local" name="checkOutAt" />
+            </label>
+          </div>
+          <label class="form-field">
+            <span>联系电话 <b>选填</b></span>
+            <input type="tel" name="phone" autocomplete="tel" inputmode="tel" maxlength="20" placeholder="方便我们与你确认" />
+          </label>
+          <label class="form-field">
+            <span>留言祝福 <b>选填</b></span>
+            <textarea name="message" maxlength="200" rows="4" placeholder="写下想对我们说的话……"></textarea>
+            <small><output id="message-count">0</output> / 200</small>
+          </label>
+          <p class="form-error" id="rsvp-error" role="alert" hidden></p>
+          <button class="pixel-button rsvp-submit" type="submit">保存赴约信息</button>
+          <p class="form-note">提交即表示同意我们仅为本次婚礼筹备用途保存以上信息。</p>
+        </form>
+        <article class="rsvp-success reveal" id="rsvp-success" aria-live="polite" tabindex="-1" hidden>
+          <img src="/assets/junimo.gif" alt="祝尼魔" />
+          <p>登记完成</p>
+          <h3 id="rsvp-success-title">已收到你的答复</h3>
+          <span id="rsvp-success-summary"></span>
+          <button class="pixel-button" id="rsvp-edit" type="button">修改赴约信息</button>
+        </article>
+      </section>
+
+      <section class="guests story-section" id="guests">
+        <header class="section-heading reveal"><svg><use href="#icon-leaf" /></svg><p>FRIENDS OF THE VALLEY</p><h2>婚礼当日见</h2></header>
+        <article class="blessing-card reveal pop-in">
+          <div class="blessing-junimos">
+            <img src="/assets/junimo.gif" alt="" /><img src="/assets/junimo.gif" alt="" /><img src="/assets/junimo.gif" alt="" />
+            <img src="/assets/junimo.gif" alt="" /><img src="/assets/junimo.gif" alt="" /><img src="/assets/junimo.gif" alt="" />
+          </div>
+          <p>春风暖，遇良辰。<br />喝满你们的喜酒，听完一年的花。<br />我们相逢这一天，把最好的故事变成回忆。</p>
+        </article>
+        <div class="inventory-row reveal" aria-label="星露谷祝福礼物">
+          <span><img src="/assets/wedding-ring.png" alt="婚戒" /></span><span><img src="/assets/ancient-fruit.png" alt="上古水果" /></span>
+          <span><img src="/assets/blueberry.png" alt="蓝莓" /></span><span><img src="/assets/starfruit.png" alt="杨桃" /></span>
+        </div>
+        <div class="portrait-grid reveal">
+          <figure><img src="/assets/characters/abigail.png" alt="Abigail" /><figcaption>Abigail</figcaption></figure>
+          <figure><img src="/assets/characters/haley.png" alt="Haley" /><figcaption>Haley</figcaption></figure>
+          <figure><img src="/assets/characters/emily.png" alt="Emily" /><figcaption>Emily</figcaption></figure>
+          <figure><img src="/assets/characters/leah.png" alt="Leah" /><figcaption>Leah</figcaption></figure>
+          <figure><img src="/assets/characters/penny.png" alt="Penny" /><figcaption>Penny</figcaption></figure>
+          <figure><img src="/assets/characters/maru.png" alt="Maru" /><figcaption>Maru</figcaption></figure>
+          <figure><img src="/assets/characters/sam.png" alt="Sam" /><figcaption>Sam</figcaption></figure>
+          <figure><img src="/assets/characters/elliott.png" alt="Elliott" /><figcaption>Elliott</figcaption></figure>
+          <figure><img src="/assets/characters/harvey.png" alt="Harvey" /><figcaption>Harvey</figcaption></figure>
+          <figure><img src="/assets/characters/alex.png" alt="Alex" /><figcaption>Alex</figcaption></figure>
+          <figure><img src="/assets/characters/shane.png" alt="Shane" /><figcaption>Shane</figcaption></figure>
+          <figure class="you"><span>?</span><figcaption>等待你的席位</figcaption></figure>
+        </div>
+        <div class="harvest reveal" aria-hidden="true">
+          <img src="/assets/ancient-fruit.png" alt="" /><img src="/assets/blueberry.png" alt="" /><img src="/assets/starfruit.png" alt="" />
+          <img src="/assets/blueberry.png" alt="" /><img src="/assets/ancient-fruit.png" alt="" />
+        </div>
+      </section>
+
+      <section class="ending" id="ending">
+        <div class="ending-stars" aria-hidden="true">✦ · ✧ · ✦</div>
+        <img class="ending-junimo" src="/assets/junimo.gif" alt="祝尼魔" />
+        <div class="ending-copy reveal"><p>冬雪柔，星河长</p><h2>期待与你<br />共享这一份喜悦</h2><span data-content="coupleAmp">新郎姓名 & 新娘姓名</span><strong data-content="dateDot">2030 · 10 · 01</strong></div>
+        <button class="pixel-button light-button" type="button" data-scroll="#top">回到谷地入口</button>
+        <footer>非官方粉丝创作 · 游戏素材版权归 ConcernedApe 所有<br />仅用于私人婚礼邀请，不作商业用途</footer>
+      </section>
+    </main>
+
+    <nav class="floating-tools" aria-label="页面工具">
+      <button id="music-toggle" class="tool-slot" type="button" aria-label="播放背景音乐" aria-pressed="false"><svg><use href="#icon-music" /></svg></button>
+      <button class="tool-slot" type="button" data-scroll="#map" aria-label="查看地点"><svg><use href="#icon-map" /></svg></button>
+      <button class="tool-slot" type="button" data-scroll="#rsvp" data-rsvp-shortcut hidden aria-label="填写赴约信息"><svg><use href="#icon-leaf" /></svg></button>
+    </nav>
+    <audio id="wedding-music" src="/assets/wedding-bgm.mp3" preload="metadata" loop></audio>
+    <p id="audio-status" class="sr-only" aria-live="polite"></p>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

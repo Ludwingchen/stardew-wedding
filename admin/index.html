@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#21183b" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>宾客登记簿｜Stardew Wedding</title>
+    <link rel="icon" href="../assets/wedding-ring-MbtX3CNO.png" />
+    <link rel="preload" href="../assets/fusion-pixel-12px-proportional-zh-hans-BXKXZEqC.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" crossorigin src="../assets/admin-KKpkP_39.js"></script>
+    <link rel="modulepreload" crossorigin href="../assets/rsvp-config-L9dY7qVg.js">
+    <link rel="stylesheet" crossorigin href="../assets/rsvp-config-B_q3XdvC.css">
+    <link rel="stylesheet" crossorigin href="../assets/admin-DgzerPOC.css">
+  </head>
+  <body class="admin-body">
+    <main class="admin-shell">
+      <section class="admin-disabled" id="rsvp-disabled" hidden>
+        <h1>RSVP 默认关闭</h1>
+        <p>当前邀请函没有启用宾客登记。请回到项目根目录运行 <code>npm run setup:rsvp</code>。</p>
+        <a class="pixel-button" href="/">返回邀请函</a>
+      </section>
+
+      <div id="admin-app">
+      <section class="admin-login" id="login-view">
+        <div class="admin-stars" aria-hidden="true">✦ · ✧ · ✦</div>
+        <img src="data:image/gif;base64,R0lGODlhMAAwAPIFAEfLGwQ9D43wMzKGHKW1gwAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQJDwAFACwAAAAAMAAwAAAD/1i63P4wykmrvThHwHX4msMBHhgyYxmcz+e+bhSzCmyv0EzfsGwyugXvNRIYj8HaT7hUDgPFozFZoFqfUI502qx2da6o1DYoi8HfX1i7JZvZAjQOqP6IkbDy4FyfM+cuRyN6hIViejYOcoIchY57cIg9DYtGg4+Eh2WJlHlljCMAW6MClwNUfy56oHekpY2bXakfq5ahoq6gkn45tG+3wMHBqJ0BesLIycR0xr/JzyPLf9DUt9JO1dkA115Z2tDca6HiyOQc4XbW6crr0bLFwObD7efvzMCswvnb9tO3+/hsjeuH7Z9AZPvQNYMU7NgtAhAj7qKgytkth6EiSozFq0eFL4bAMI7QCHGiBRckCWQziQElyZUcVaSEeYqgBHmmhtAo2JAjpx30Qu36ubObzmLcKGJRNAnoE6YvWBAterIp1apRry5IAAAh+QQJDwAFACwDAAMAKgAtAAAD/1i63A7QyUkpBDXrF7cMoFeAgUY6p5dW69Jm7xcqsUveOE7le+7fPeDkRywNdQ2SYMm8KJnLGC8Jgi6dVasUyXhCsQGrYCscZQWXgTqnHlyYq6k5fIW02ep3dDaPn9NrOG16Y3xEbU12bYuLhHdFAYh1AIyVbhBMj0WSaIqWg5hLmn6ReaFiqImUgUZdIKAAqbKdqwNksLOpgLZ8NgEXwMHCw8FkxMfIYCggyc3Dxs7RENDSztTVydfTzNncwNoAJM3ixb003mDj6NutvsKqx/Dsy7/B8sP34Pfvk8pUpQMICBwoDNbAgZrotTkosKApAAwJJPy3kKHDSxAZTpQBEClbrRoUH0rbGATWSFYiIKlsp2JlERG+XPpIyYVmmSAgWdQ8crNlzwIJAAAh+QQJDwAFACwDAAMAKgAtAAAD/1garP7wgRkrZMHqMsG22Fd1ohOCWJqWV4OqKvucFQzLpjszQu93tlhrNfT9JkHiTpkLGHvApK5JwxwBgyzsKYhmFsKCFTrJDrZPL1U37pa1Kq4abDNfzfh8x1cN2slYeYJ7PX11WXeCehN8bI4BZoRcRh2SZjd0kYyTlJUAPpdhGJqfnFeWcEoYnqytroFnU3SvtK6hX0u1upW3Eau7wEiyYgzBwTRNxsDIs56/tM9zuc7FtdHCuMnUAbrXAMzE3J6nruTfw97mrObg6YCv7OgMZgT19qyk+Km+81n2957yBdw3hN4/AvoGvOr1QiCtgwTA8YOUJRhEiQUrArs4TCtDEofSZHzU2ArjhpEKXZmc2E5KNhaYliTBQaelFJo4ZXbMeTIMzxIxIyQAACH5BAUPAAUALAMAAwAqAC0AAAP/WLrcDtDJSSkENesXtwygV4CBRjqnl1br0mbvFyqxS944TuV77t894ORHLA11DZJgybwomcsYLwmCLp1VqxTJeEKxAatgKxxlBZeBOqceXJirqTl8hbTZ6nd0No+f02s4bXpjfERtTXZti4uEd0UBiHUAjJVuEEyPRZJoipaDmEuafpF5oWKoiZSBRl0goACpsp2rA2Sws6mAtnw2ARfAwcLDwWTEx8hgKCDJzcPGztEQ0NLO1NXJ19PM2dzA2gAkzeLFvTTeYOPo262+wqrH8OzLv8Hyw/fg9++TylSlAwgIHCgM1sCBmui1OSiwoCkADAkk/LeQocNLEBlOlAEQKVutGhQfStsYBNZIViIgqWynYmUREb5c+kjJhWaZICBZ1Dxys2XPAgkAADs=" alt="祝尼魔守卫" />
+        <form class="login-board" id="admin-login-form">
+          <p>PELICAN TOWN ARCHIVE</p>
+          <h1>宾客登记簿</h1>
+          <span>只有持有钥匙的人才能查看</span>
+          <label>
+            <b>管理密码</b>
+            <input type="password" name="password" autocomplete="current-password" maxlength="128" required autofocus />
+          </label>
+          <p class="admin-error" id="login-error" role="alert" hidden></p>
+          <button class="pixel-button" type="submit">打开登记簿</button>
+        </form>
+      </section>
+
+      <section class="admin-dashboard" id="dashboard-view" hidden>
+        <header class="admin-header">
+          <div><p>PELICAN TOWN ARCHIVE</p><h1>宾客登记簿</h1></div>
+          <button class="admin-small-button" id="logout-button" type="button">退出</button>
+        </header>
+
+        <div class="admin-stats" aria-label="赴约统计">
+          <article><span>答复</span><strong id="stat-replies">0</strong><small>份</small></article>
+          <article><span>赴约</span><strong id="stat-guests">0</strong><small>人</small></article>
+          <article><span>住宿</span><strong id="stat-accommodation">0</strong><small>份</small></article>
+        </div>
+
+        <div class="admin-toolbar">
+          <label><span class="sr-only">筛选住宿需求</span><select id="accommodation-filter"><option value="all">全部登记</option><option value="yes">需要住宿</option><option value="no">无需住宿</option></select></label>
+          <button class="admin-small-button" id="refresh-button" type="button">刷新</button>
+          <button class="pixel-button" id="export-button" type="button">导出 CSV</button>
+        </div>
+
+        <p class="admin-error" id="dashboard-error" role="alert" hidden></p>
+        <div class="guest-list" id="guest-list" aria-live="polite"></div>
+        <p class="empty-list" id="empty-list" hidden>登记簿还是空的，等待第一位村民赴约。</p>
+      </section>
+      </div>
+    </main>
+  </body>
+</html>

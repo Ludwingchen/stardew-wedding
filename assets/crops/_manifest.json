@@ -1,0 +1,605 @@
+{
+  "blue_jazz.png": {
+    "seed": "blue_jazz.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true
+    },
+    "flower": true,
+    "giant": false,
+    "seasons": [
+      "spring"
+    ]
+  },
+  "tulip.png": {
+    "seed": "tulip.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "6": true
+    },
+    "flower": true,
+    "giant": false,
+    "seasons": [
+      "spring"
+    ]
+  },
+  "cauliflower.png": {
+    "seed": "cauliflower.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true
+    },
+    "flower": false,
+    "giant": true,
+    "seasons": [
+      "spring"
+    ]
+  },
+  "parsnip.png": {
+    "seed": "parsnip.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "spring"
+    ]
+  },
+  "potato.png": {
+    "seed": "potato.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "spring"
+    ]
+  },
+  "garlic.png": {
+    "seed": "garlic.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "spring"
+    ]
+  },
+  "rhubarb.png": {
+    "seed": "rhubarb.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "spring"
+    ]
+  },
+  "kale.png": {
+    "seed": "kale.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "spring"
+    ]
+  },
+  "strawberry.png": {
+    "seed": "strawberry.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true,
+      "7": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "spring"
+    ]
+  },
+  "carrot.png": {
+    "seed": "carrot.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "spring"
+    ]
+  },
+  "green_bean.png": {
+    "seed": "green_bean.png",
+    "stages": {
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true,
+      "7": true,
+      "8": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "spring"
+    ]
+  },
+  "unmilled_rice.png": {
+    "seed": "unmilled_rice.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "spring"
+    ]
+  },
+  "poppy.png": {
+    "seed": "poppy.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "6": true
+    },
+    "flower": true,
+    "giant": false,
+    "seasons": [
+      "summer"
+    ]
+  },
+  "summer_spangle.png": {
+    "seed": "summer_spangle.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true
+    },
+    "flower": true,
+    "giant": false,
+    "seasons": [
+      "summer"
+    ]
+  },
+  "sunflower.png": {
+    "seed": "sunflower.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true
+    },
+    "flower": true,
+    "giant": false,
+    "seasons": [
+      "summer",
+      "fall"
+    ]
+  },
+  "blueberry.png": {
+    "seed": "blueberry.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true,
+      "7": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "summer"
+    ]
+  },
+  "corn.png": {
+    "seed": "corn.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true,
+      "7": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "summer",
+      "fall"
+    ]
+  },
+  "hops.png": {
+    "seed": "hops.png",
+    "stages": {
+      "1": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true,
+      "7": true,
+      "8": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "summer"
+    ]
+  },
+  "pepper.png": {
+    "seed": "pepper.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "summer"
+    ]
+  },
+  "melon.png": {
+    "seed": "melon.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true
+    },
+    "flower": false,
+    "giant": true,
+    "seasons": [
+      "summer"
+    ]
+  },
+  "radish.png": {
+    "seed": "radish.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "summer"
+    ]
+  },
+  "red_cabbage.png": {
+    "seed": "red_cabbage.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "summer"
+    ]
+  },
+  "starfruit.png": {
+    "seed": "starfruit.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "summer"
+    ]
+  },
+  "tomato.png": {
+    "seed": "tomato.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true,
+      "7": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "summer"
+    ]
+  },
+  "wheat.png": {
+    "seed": "wheat.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ]
+  },
+  "summer_squash.png": {
+    "seed": "summer_squash.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true,
+      "7": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "summer"
+    ]
+  },
+  "fairy_rose.png": {
+    "seed": "fairy_rose.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true
+    },
+    "flower": true,
+    "giant": false,
+    "seasons": [
+      "fall"
+    ]
+  },
+  "amaranth.png": {
+    "seed": "amaranth.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "fall"
+    ]
+  },
+  "artichoke.png": {
+    "seed": "artichoke.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "fall"
+    ]
+  },
+  "beet.png": {
+    "seed": "beet.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "fall"
+    ]
+  },
+  "bok_choy.png": {
+    "seed": "bok_choy.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "fall"
+    ]
+  },
+  "broccoli.png": {
+    "seed": "broccoli.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "fall"
+    ]
+  },
+  "cranberry.png": {
+    "seed": "cranberry.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true,
+      "7": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "fall"
+    ]
+  },
+  "eggplant.png": {
+    "seed": "eggplant.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true,
+      "7": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "fall"
+    ]
+  },
+  "grape.png": {
+    "seed": "grape.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true,
+      "7": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "fall"
+    ]
+  },
+  "pumpkin.png": {
+    "seed": "pumpkin.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true
+    },
+    "flower": false,
+    "giant": true,
+    "seasons": [
+      "fall"
+    ]
+  },
+  "yam.png": {
+    "seed": "yam.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true
+    },
+    "flower": false,
+    "giant": false,
+    "seasons": [
+      "fall"
+    ]
+  },
+  "powdermelon.png": {
+    "seed": "powdermelon.png",
+    "stages": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true
+    },
+    "flower": false,
+    "giant": true,
+    "seasons": [
+      "winter"
+    ]
+  }
+}
