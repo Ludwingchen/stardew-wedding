@@ -8,6 +8,8 @@
     <title>宾客登记簿｜Stardew Wedding</title>
     <link rel="icon" href="../assets/wedding-ring-MbtX3CNO.png" />
     <link rel="preload" href="../assets/fusion-pixel-12px-proportional-zh-hans-BXKXZEqC.woff2" as="font" type="font/woff2" crossorigin />
+    <script src="../assets/vendor/workbuddy-cloud-sdk.js" defer></script>
+    <script src="../assets/rsvp-cloud.js"></script>
     <script type="module" crossorigin src="../assets/admin-KKpkP_39.js"></script>
     <link rel="modulepreload" crossorigin href="../assets/rsvp-config-L9dY7qVg.js">
     <link rel="stylesheet" crossorigin href="../assets/rsvp-config-B_q3XdvC.css">
@@ -16,8 +18,8 @@
   <body class="admin-body">
     <main class="admin-shell">
       <section class="admin-disabled" id="rsvp-disabled" hidden>
-        <h1>RSVP 默认关闭</h1>
-        <p>当前邀请函没有启用宾客登记。请回到项目根目录运行 <code>npm run setup:rsvp</code>。</p>
+        <h1>请从婚宴专用地址打开登记簿</h1>
+        <p>宾客登记只在与云服务同源的婚宴专用地址上可用：<br /><code>stardew-wedding-invite-18815.app.workbuddy.host/admin/</code></p>
         <a class="pixel-button" href="/">返回邀请函</a>
       </section>
 
@@ -47,11 +49,11 @@
         <div class="admin-stats" aria-label="赴约统计">
           <article><span>答复</span><strong id="stat-replies">0</strong><small>份</small></article>
           <article><span>赴约</span><strong id="stat-guests">0</strong><small>人</small></article>
-          <article><span>住宿</span><strong id="stat-accommodation">0</strong><small>份</small></article>
+          <article hidden><span>住宿</span><strong id="stat-accommodation">0</strong><small>份</small></article>
         </div>
 
         <div class="admin-toolbar">
-          <label><span class="sr-only">筛选住宿需求</span><select id="accommodation-filter"><option value="all">全部登记</option><option value="yes">需要住宿</option><option value="no">无需住宿</option></select></label>
+          <label hidden><span class="sr-only">筛选住宿需求</span><select id="accommodation-filter"><option value="all">全部登记</option><option value="yes">需要住宿</option><option value="no">无需住宿</option></select></label>
           <button class="admin-small-button" id="refresh-button" type="button">刷新</button>
           <button class="pixel-button" id="export-button" type="button">导出 CSV</button>
         </div>

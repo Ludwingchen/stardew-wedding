@@ -1,0 +1,29 @@
+/* 宾客登记 · 首屏直达入口
+   机制：main JS 在登记启用时对 [data-rsvp-shortcut] 解除 hidden（同右下角树叶按钮）；
+   rsvp-config 的 [hidden]{display:none!important} 保证未启用域名（GitHub Pages 等）下不显示。
+   .hero-stack 为 pointer-events:none，按钮必须恢复 pointer-events:auto 才可点击。 */
+.hero-rsvp-entry {
+  pointer-events: auto;
+  display: inline-block;
+  margin-top: 26px;
+  min-width: 0;
+  padding: 14px 26px 12px;
+  font-size:13px;
+  letter-spacing: .18em;
+  animation: heroRsvpIn .6s .9s ease both;
+}
+
+@keyframes heroRsvpIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* bride dialogue under portrait-grid (cream box per user reference) */
+.bride-dialogue{display:flex;align-items:center;gap:16px;max-width:560px;margin:28px auto 0;padding:16px 18px;background:linear-gradient(180deg,#fdf3cf,#f7e3a0);border:5px solid #8a5a2b;border-radius:12px;box-shadow:inset 0 0 0 3px #fff6dc,5px 6px 0 rgba(58,32,8,.35)}
+.bride-dialogue-avatar{width:64px;height:64px;flex:0 0 auto;object-fit:cover;image-rendering:pixelated;background:#123c46;border:4px solid #0f2f38;border-radius:6px;box-shadow:0 0 0 3px #c98f3f}
+.bride-dialogue-body{flex:1 1 auto;min-width:0}
+.bride-dialogue-body b{display:block;margin:0 0 6px;color:#c9552e;font-size:16px;font-weight:900;letter-spacing:.08em}
+.bride-dialogue-body p{margin:0;font-size:14.5px;line-height:1.8;color:#5c3a17}
+.bride-dialogue-qr{flex:0 0 auto;width:128px;height:128px;background:#fff;border:4px solid #8a5a2b;border-radius:6px;padding:3px;box-sizing:border-box}
+@media (max-width:620px){.bride-dialogue{flex-wrap:wrap;justify-content:center;text-align:center}.bride-dialogue-body p{text-align:left}}
+body{font-weight:700}

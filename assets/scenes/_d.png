@@ -49,7 +49,7 @@
           <div class="vine vine-left" aria-hidden="true"></div><div class="vine vine-right" aria-hidden="true"></div>
           <p class="board-kicker">SAVE OUR DATE</p>
           <h3 data-content="coupleAmp">新郎姓名 & 新娘姓名</h3>
-          <p class="board-message">春去冬来，我们决定在星露谷举办一场婚礼。诚挚邀请你，来见证这一份温暖般的幸福。</p>
+          <p class="board-message">春去冬来，我们决定在星露谷举办一场婚礼。诚挚邀请你，来见证温暖幸福的旅程。</p>
           <dl class="event-list">
             <div><dt><svg><use href="#icon-calendar" /></svg>日期</dt><dd data-content="dateCn">2030年10月1日 · 星期二</dd></div>
             <div><dt><svg><use href="#icon-pin" /></svg>地点</dt><dd data-content="venue">示例市幸福区星露谷宴会厅</dd></div>
@@ -163,7 +163,7 @@
           <p class="location-overline">现实世界目的地</p>
           <h3 data-content="venue">示例市幸福区星露谷宴会厅</h3>
           <div class="transport-grid">
-            <div><img src="/assets/bus.png" alt="巴士" /><b>公共交通</b><span>到站后打车前往</span></div>
+            <div><img src="/assets/bus.png" alt="巴士" /><b>公共交通</b><span>到站后步行前往</span></div>
             <div><img src="/assets/horse.png" alt="马匹代指自驾" /><b>自驾前往</b><span>导航至酒店停车场</span></div>
           </div>
           <a class="pixel-button" data-content="navigationLink" rel="noreferrer">打开地图导航</a>
